@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://demos.creative-tim.com/argon-dashboard-pro/assets/vendor/sweetalert2/dist/sweetalert2.min.css">
+   <script src="https://sweetalert.js.org/assets/sweetalert/sweetalert.min.js"></script>
+       <script>
+           setInterval(function () {  
+           jQuery(".swal-button").attr("style","background-color:#232d82");
+               jQuery(".swal-modal").attr("style","border-radius: 0px");
+                }, 1000);
+           </script>
+      <style>
+
+         form.tab-form {
+     background: #f1f2f8;
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+         }
+         .oay-btn {
+         text-align: center;
+         }
+         .nme {
+         display: grid;
+         text-align: left;
+         width: 48%;
+         }
+         .mail {
+         display: grid;
+         text-align: left;
+         margin-top: 18px;
+         width: 100%;
+         }
+         .pay-btn {
+       text-align: right;
+        }
+.surname {
+    width: 48%;
+    text-align: left;
+}
+
+button.pay-dolar:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f054";
+    background: rgba(0,0,0,.2);
+    width: 38px;
+    height: 42px;
+    font-size: 13px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    justify-content: center;
+    right: 0;
+}
+
+   button.pay-dolar {
+    margin: 30px auto 0;
+    padding: 8px 46px 8px 15px;
+    background: #232d82;
+    border: none;
+    color: #fff;
+    text-align: left;
+    border-radius: 0;
+    position: relative;
+    
+    cursor: pointer;
+    font-size: 16px;
+}
+         .names-addr {
+         display: flex;
+         width: 100%;
+         margin: 0 auto;
+         justify-content: space-between;
+         }
+         .amnt-entr p {
+         text-align: left;
+         }
+         .amnt-entr {
+         display: grid;
+         width: 100%;
+         margin: 0 auto;
+         }
+         .amnt-entr label {
+         text-align: left;
+         }
+     
+       .tab {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+         div#London {
+         text-align: center;
+         }
+         div#London {
+         text-align: center;
+         margin: 34px;
+         border: none;
+         }
+        button:focus {
+    outline: none!important;
+}
+         /* Style the tab content */
+         .tabcontent {
+         text-align: left;
+             margin: 0 auto 34px;
+         }  
+         .card-section {
+         width: 100%;
+         margin: 15px auto;
+         text-align: left;
+         }
+         div#expiration-date {
+    margin-bottom: 20px;
+}
+.paybox button {
+    background: white;
+    width: 24%;
+    border-radius: 0;
+    padding: 4px;
+    font-size: 14px;
+    color: #626262b8;
+    border: 1.5px solid #626262b8;
+    margin-bottom: 22px;
+}
+.paybox button:hover, .paybox button:active, .paybox button:focus {
+    background: white;
+    color: #93b2cc;
+    border: 1.5px solid #93b2cc;
+}
+input:focus-visible {
+    outline: none!important;
+}
+.select-year {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.select-year select {
+    width: 32%;
+    border: none;
+    border-radius: 0;
+}
+.select-year select:focus {
+    box-shadow: 0px 0px 30px 0px rgb(35 36 82 / 20%);
+}
+button#confirm-purchase:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f054";
+    background: rgba(0,0,0,.2);
+    width: 38px;
+    height: 42px;
+    font-size: 13px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    justify-content: center;
+    right: 0;
+}
+.tablinks.active {
+    border: 1px solid #f1f2f8;
+    padding: 14px 35px;
+    background: #232d82;
+    color: white;
+        width: 50%;
+    border-radius: 0;
+}
+
+.tablinks:hover {
+    color: #fff;
+    background-color: #232d82d1;
+    text-decoration: none;
+   }
+.tablinks {
+    background: #ffffff;
+    border: 1px solid #f1f2f8;
+    padding: 14px 35px;
+    border-radius: 0;
+   width:50%;
+}
+
+
+div#London {
+    text-align: center;
+    margin: 0 auto 34px;
+    border: none;
+} 
+.form-group.CVV label {
+    position: absolute;
+    top: -20px;
+}
+.form-group.CVV{
+            width: 32%;
+            position: relative;
+            margin-bottom: 0!important;
+         }
+
+.nme input#txtfst {
+    padding: 15px;
+}
+
+.check-design {
+    background: white;
+    width: 50%;
+    text-align: center;
+    margin: 1px 1px;
+    padding: 13px;
+}
+
+
+.secon-part {
+    display: flex;
+    justify-content: center;
+}
+
+.fst-part {
+    display: flex;
+    justify-content: center;
+}
+
+input#cdrecurdonationamt1,input#cdrecurdonationamt2,input#cdrecurdonationamt3,input#cdrecurdonationamt4,input#cdrecurdonationamt5 {
+    float: left;
+}
+label.other-amnt {
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    margin: 1px;
+        display: flex;
+    padding: 13px;
+}
+label#radio5 {
+    text-align: left;
+}
+input#cdrecurdonationamt5 {
+    margin-right: 30px;
+}
+
+input#cdrecurdonationamt11,input#cdrecurdonationamt12,input#cdrecurdonationamt13,input#cdrecurdonationamt14 {
+    float: left;
+}
+label#radio15 {
+    text-align: left;
+    
+}
+input#cdrecurdonationamt15 {
+    margin-right: 30px;
+}
+[type="radio"] {
+    opacity: 0;
+}
+label {
+    position: relative;
+}
+
+.paybox label:after {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    left: 16px;
+    top: 15px;
+    font-size: 12px;
+    opacity:0;
+}
+
+.paybox label:active,.paybox label:focus,.paybox label:focus-within {
+    background: #f4f5fa;
+    color: #343a5b!important;
+}
+.paybox label:active:after, .paybox label:focus:after, .paybox label:focus-within:after {
+    opacity: 1!important;
+    border: 2px solid #fefefe00!important;
+    color: #232d82;
+}
+.paybox label:before {
+    content: '';
+    position: absolute;
+    top: 13px;
+    background: #f4f4f4;
+    left: 15px;
+    width: 18px;
+    border-radius: 50px;
+    height: 18px;
+    border: 2px solid #232d82;
+}
+.paybox label {
+    color: #aaacbc!important;
+    font-size: 16px!important;
+    border: 2px solid transparent;
+    font-weight: 600;
+}
+.amnt-entr {
+    margin-top: 18px;
+}
+.form.field {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.6rem;
+}
+.other-amnt.dd {
+    padding: 11px 10px 15px 13px;
+    line-height: 0;
+}
+/* .dd:after {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    left: 16px;
+    top: 21px;
+    font-size: 12px;
+    opacity: 0;
+} */
+/*media query start here*/
+@media only screen and (max-width: 767px) {
+    /* .dd:after {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+       left: 16px!important;
+    top: 21px!important;
+    font-size: 12px;
+    opacity: 0;
+} */
+
+    .tablinks.active {
+
+    width: 100%;
+
+}
+.tab{
+
+   display: block;
+}
+
+form.tab-form {
+    padding: 15px;
+}
+
+.tablinks {
+    width: 100%;
+   margin: 5px 0;
+}
+
+.names-addr {
+    display: block;
+}
+.surname,.nme  {
+    width: 100%;
+}
+button.pay-dolar {
+    width: 100%;
+}
+}
+.required{
+	color:red;
+}
+
+
+</style>
+      
+   </head>
+   <body>
+      <h2>Donation Form</h2>
+      <div class="form field">
+         <div class="tab"> 
+            <button class="tablinks active" id="time-one" >One Time Donation</button>
+            <button class="tablinks" id="mon-time" >Recurring Donation</button>
+         </div>
+         <div class="query-tab">
+            <div id="London" class="tabcontent">
+               <form class="tab-form" method="POST">
+  
+                  <div class="names-addr">
+                     <div class="nme">  <label> Name<span class = "required">*</span></label>
+                        <input type="text" id="txtfst" name="name_OTP" placeholder="Name" required>
+                     </div>
+                     <div class="surname">
+                        <label> Surname<span class = "required">*</span></label>
+                        <input type="text" id="surname" name="surname" placeholder="Surname" required>
+                     </div>
+                     
+                  </div>
+                  <div class="mail">
+                        <label> Email<span class = "required">*</span></label>
+                        <input type="email" id="mailfst" name="email_OTP" placeholder="Email" required>
+                     </div>
+                        <div class="card-section">
+                     <div class="form-group owner">
+                        <label for="owner"> Card Owner<span class = "required">*</span></label>
+                        <input type="text"   id="owner" name="card_owner_OTP" placeholder="Card Holder Name" required>
+                     </div>
+                    
+                     <div class="form-group" id="card-number-field">
+                        <label for="cardNumber">Card Number<span class = "required">*</span></label>
+                        <input type="text"   id="cardNumber" name="card_OTP" placeholder="Card Number" maxlength="16" required>
+                     </div>
+                     <div  id="expiration-date">
+                        <label>Expiration Date<span class = "required">*</span></label>
+                        <div class="select-year" >
+                        <select name="month_OTP" placeholder="Expiration Month" required>
+                           <option value="01">January</option>
+                           <option value="02">February </option>
+                           <option value="03">March</option>
+                           <option value="04">April</option>
+                           <option value="05">May</option>
+                           <option value="06">June</option>
+                           <option value="07">July</option>
+                           <option value="08">August</option>
+                           <option value="09">September</option>
+                           <option value="10">October</option>
+                           <option value="11">November</option>
+                           <option value="12">December</option>
+                        </select>
+                        <select name="year_OTP" placeholder="Expiration Year">
+                           <option value="2022"> 2022</option>
+                           <option value="2023"> 2023</option>
+                           <option value="2024"> 2024</option>
+                           <option value="2025"> 2025</option>
+						   <option value="2026"> 2026</option>
+                           <option value="2027"> 2027</option>
+                           <option value="2028"> 2028</option>
+						   <option value="2029"> 2029</option>
+                           <option value="2030"> 2030</option>
+                           <option value="2031"> 2031</option>
+                           <option value="2032"> 2032</option>
+						   <option value="2033"> 2033</option>
+                           <option value="2034"> 2034</option>
+						   <option value="2035"> 2035</option>
+                           <option value="2036"> 2036</option>
+                           <option value="2037"> 2037</option>
+						   <option value="2038"> 2038</option>
+                           <option value="2039"> 2039</option>
+                        </select>
+                         <div class="form-group CVV">
+                            <label>CVV<span class = "required">*</span></label>
+                        <input type="text"   id="cvv" name="cvv_OTP" placeholder="CVV" maxlength="4" required>
+                     </div>
+                        </div>
+                     </div>
+<label for="OneTimeAmount">One Time Amount</label>
+               <div class="paybox">
+                  
+               <div class="fst-part"> 
+                   <label class="check-design" id="radio11"><input type="radio" id="cdrecurdonationamt11" name="price" value="50"> $50</label>
+                   <label class="check-design" id="radio12"> <input type="radio" id="cdrecurdonationamt12" name="price" value="100">$100</label>
+                </div>
+               <div class="secon-part">  
+                <label class="check-design" id="radio13"><input type="radio" id="cdrecurdonationamt13" name="price" value="500">$500</label>
+                   <label class="check-design"  id="radio14"> <input type="radio" id="cdrecurdonationamt14" name="price" value="1000">$1000</label>
+              </div>
+               <label class="other-amnt"  id="radio15"><input type="radio" id="cdrecurdonationamt15" name="price" value="amount">Other Amount</label>
+          </div>
+
+                  <div class="amnt-entr">
+                     <label for="amount">Enter Amount</label>
+                     <input type="tell" id="amount" name="amount" placeholder="Total Amount"> 
+                  </div>                    
+
+                     <div class="pay-btn">
+                        <button class="pay-dolar" id="confirm-purchase" name="btn_otp"> Pay Now $<span id="pid"></span></button>
+                     </div>
+               </form>
+               </div>
+            </div>
+            <div id="Paris" class="tabcontent" style = "display:none;">
+               <form class="tab-form" method="POST">
+                
+                  <div class="names-addr">
+                     <div class="nme">  <label> Name<span class = "required">*</span></label>
+                        <input type="text" id="txtfst" name="name_monthly" placeholder="Name" required>
+                     </div>
+                     <div class="surname">
+                        <label> Surname<span class = "required">*</span></label>
+                        <input type="text" id="surname" name="surname" placeholder="Surname" required>
+                     </div>
+                     
+                  </div>
+                  <div class="mail">
+                        <label> Email<span class = "required">*</span></label>
+                        <input type="email" id="mailfst" name="email_monthly" placeholder="Email" required>
+                     </div>
+                  <div class="card-section">
+                     <div class="form-group owner">
+                        <label for="owner"> Card Owner<span class = "required">*</span> </label>
+                        <input type="text"   id="owner" name="card_owner_monthly" placeholder="Card Holder Name" required>
+                     </div>
+
+                     <div class="form-group" id="card-number-field">
+                        <label for="cardNumber">Card Number<span class = "required">*</span></label>
+                        <input type="text"   id="cardNumber" name="card_number_monthly" placeholder="Card Number" maxlength="16" required>
+                     </div>
+                     <div id="expiration-date">
+                        <label>Expiration Date<span class = "required">*</span></label>
+                        <div class="select-year">
+                        <select name="month_monthly">
+                           <option value="01">January</option>
+                           <option value="02">February </option>
+                           <option value="03">March</option>
+                           <option value="04">April</option>
+                           <option value="05">May</option>
+                           <option value="06">June</option>
+                           <option value="07">July</option>
+                           <option value="08">August</option>
+                           <option value="09">September</option>
+                           <option value="10">October</option>
+                           <option value="11">November</option>
+                           <option value="12">December</option>
+                        </select>
+                        <select name="year_monthly">
+                           
+                           <option value="2022"> 2022</option>
+                           <option value="2023"> 2023</option>
+                           <option value="2024"> 2024</option>
+                           <option value="2025"> 2025</option>
+						   <option value="2026"> 2026</option>
+                           <option value="2027"> 2027</option>
+                           <option value="2028"> 2028</option>
+						   <option value="2029"> 2029</option>
+                           <option value="2030"> 2030</option>
+                           <option value="2031"> 2031</option>
+                           <option value="2032"> 2032</option>
+						   <option value="2033"> 2033</option>
+                           <option value="2034"> 2034</option>
+						   <option value="2035"> 2035</option>
+                           <option value="2036"> 2036</option>
+                           <option value="2037"> 2037</option>
+						   <option value="2038"> 2038</option>
+                           <option value="2039"> 2039</option>
+                        </select>
+                        <div class="form-group CVV">
+                           <label>CVV<span class = "required">*</span></label>
+                        <input type="text"   id="cvv" name="cvv_OTP" placeholder="CVV" maxlength="4" required>
+                     </div>
+                        </div>
+                     </div>
+                     <label for="MonthlyAmount">Monthly Amount</label>
+         <div class="paybox">
+            
+               <div class="fst-part"> 
+                   <label class="check-design" id="radio1"> <input type="radio" id="cdrecurdonationamt1" name="price" value="price_1KHljTEVF5cgGvyY8wLAyFNF"> $50</label>
+                   <label class="check-design" id="radio2"> <input type="radio" id="cdrecurdonationamt2" name="price" value="price_1KHlkPEVF5cgGvyYQrd6CaEb">$100</label>
+                </div>
+               <div class="secon-part">  
+                <label class="check-design" id="radio3"><input type="radio" id="cdrecurdonationamt3" name="price" value="price_1KHlktEVF5cgGvyYGLeOEVm3">$500</label>
+                   <label class="check-design" id="radio4"> <input type="radio" id="cdrecurdonationamt4" name="price" value="price_1KHllIEVF5cgGvyYzjdsXnG2">$1000</label>
+              </div>
+               <label class="other-amnt" id="radio5"><input type="radio" id="cdrecurdonationamt5" name="price" value="amount">Other Amount</label>
+          </div>
+
+                  <div class="amnt-entr">
+                     <label for="amount">Enter Amount</label>
+                     <input type="text" id="amount_monthly" name="amount_monthly" placeholder="Total Amount" > 
+
+                  </div>
+                     <div class="pay-btn">
+                        <button class="pay-dolar" id="confirm-purchase" name="btn_monthly" > Pay Now $<span id="pidd"></span></button>
+                     </div>
+               </form>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+      <script>
+
+         jQuery('.amnt-entr').hide();
+          
+           jQuery("#cdrecurdonationamt1").click(function(event) {
+          
+            var aa1=$('#cdrecurdonationamt1').val();
+              $("#pidd").text(50);   
+              jQuery('#amount_monthly').val(50);
+
+            if(jQuery('#cdrecurdonationamt1').is(':checked')){
+               jQuery("#radio1").css('border', "solid 2px #232d82"); 
+               jQuery("#radio2").css('border', "none"); 
+               jQuery("#radio3").css('border', "none");
+               jQuery("#radio4").css('border', "none");
+               jQuery("#radio5").css('border', "none");
+               jQuery('.amnt-entr').hide();
+            }
+                    });
+         
+        
+        jQuery("#cdrecurdonationamt2").click(function(event) {
+            var aa1=$('#cdrecurdonationamt2').val();
+              $("#pidd").text(100);   
+              jQuery('#amount_monthly').val(100);
+
+ if(jQuery('#cdrecurdonationamt2').is(':checked')){
+               jQuery("#radio2").css('border', "solid 2px #232d82"); 
+               jQuery("#radio1").css('border', "none"); 
+               jQuery("#radio3").css('border', "none");
+               jQuery("#radio4").css('border', "none");
+               jQuery("#radio5").css('border', "none");
+               jQuery('.amnt-entr').hide();
+            }   
+                      });
+        jQuery("#cdrecurdonationamt3").click(function(event) {
+            var aa1=$('#cdrecurdonationamt3').val();
+              $("#pidd").text(500);   
+              jQuery('#amount_monthly').val(500);
+            if(jQuery('#cdrecurdonationamt3').is(':checked')){
+               jQuery("#radio3").css('border', "solid 2px #232d82"); 
+               jQuery("#radio1").css('border', "none"); 
+               jQuery("#radio2").css('border', "none");
+               jQuery("#radio4").css('border', "none");
+               jQuery("#radio5").css('border', "none");
+               jQuery('.amnt-entr').hide();
+            }   
+
+        });
+        jQuery("#cdrecurdonationamt4").click(function(event) {
+            var aa1=$('#cdrecurdonationamt4').val();
+              $("#pidd").text(1000);   
+              jQuery('#amount_monthly').val(1000);
+            if(jQuery('#cdrecurdonationamt4').is(':checked')){
+               jQuery("#radio4").css('border', "solid 2px #232d82"); 
+               jQuery("#radio1").css('border', "none"); 
+               jQuery("#radio3").css('border', "none");
+               jQuery("#radio2").css('border', "none");
+               jQuery("#radio5").css('border', "none");
+               jQuery('.amnt-entr').hide();
+            }   
+        });
+
+        jQuery("#cdrecurdonationamt5").click(function(event) {
+           jQuery('.amnt-entr').show();
+
+              jQuery('#amount_monthly').val("");
+       
+            if(jQuery('#cdrecurdonationamt5').is(':checked')){
+               jQuery("#radio5").css('border', "solid 2px #232d82"); 
+               jQuery("#radio1").css('border', "none"); 
+               jQuery("#radio3").css('border', "none");
+               jQuery("#radio2").css('border', "none");
+               jQuery("#radio4").css('border', "none");
+
+            }   
+        });
+         
+
+jQuery( "#amount_monthly" ).keyup(function() {
+           var aa2=jQuery('#amount_monthly').val();
+             jQuery("#pidd").text(aa2);
+});
+           jQuery("#cdrecurdonationamt11").click(function(event) {
+           var aa1=$('#cdrecurdonationamt11').val();
+              $("#pid").text(aa1);       
+              jQuery('#amount').val(aa1);    
+
+            if(jQuery('#cdrecurdonationamt11').is(':checked')){
+               jQuery("#radio11").css('border', "solid 2px #232d82"); 
+               jQuery("#radio12").css('border', "none"); 
+               jQuery("#radio13").css('border', "none");
+               jQuery("#radio14").css('border', "none");
+               jQuery("#radio15").css('border', "none");
+               jQuery('.amnt-entr').hide();
+            }
+                    });
+         
+        
+        jQuery("#cdrecurdonationamt12").click(function(event) {
+           var aa1=$('#cdrecurdonationamt12').val();
+              $("#pid").text(aa1);  
+              jQuery('#amount').val(aa1); 
+ if(jQuery('#cdrecurdonationamt12').is(':checked')){
+               jQuery("#radio12").css('border', "solid 2px #232d82"); 
+               jQuery("#radio11").css('border', "none"); 
+               jQuery("#radio13").css('border', "none");
+               jQuery("#radio14").css('border', "none");
+               jQuery("#radio15").css('border', "none");
+               jQuery('.amnt-entr').hide();
+            }   
+                      });
+        jQuery("#cdrecurdonationamt13").click(function(event) {
+            var aa1=$('#cdrecurdonationamt13').val();
+              $("#pid").text(aa1);  
+              jQuery('#amount').val(aa1); 
+            if(jQuery('#cdrecurdonationamt13').is(':checked')){
+               jQuery("#radio13").css('border', "solid 2px #232d82"); 
+               jQuery("#radio11").css('border', "none"); 
+               jQuery("#radio12").css('border', "none");
+               jQuery("#radio14").css('border', "none");
+               jQuery("#radio15").css('border', "none");
+               jQuery('.amnt-entr').hide();
+            }   
+
+        });
+        jQuery("#cdrecurdonationamt14").click(function(event) {
+           var aa1=$('#cdrecurdonationamt14').val();
+              $("#pid").text(aa1); 
+              jQuery('#amount').val(aa1);  
+            if(jQuery('#cdrecurdonationamt14').is(':checked')){
+               jQuery("#radio14").css('border', "solid 2px #232d82"); 
+               jQuery("#radio11").css('border', "none"); 
+               jQuery("#radio13").css('border', "none");
+               jQuery("#radio12").css('border', "none");
+               jQuery("#radio15").css('border', "none");
+               jQuery('.amnt-entr').hide();
+            }   
+        });
+
+        jQuery("#cdrecurdonationamt15").click(function(event) {
+           jQuery('.amnt-entr').show();
+
+
+         $( "#amount" ).keyup(function() {
+           var aa2=jQuery('#amount').val();
+             jQuery("#pid").text(aa2);
+});
+
+
+
+       
+            if(jQuery('#cdrecurdonationamt15').is(':checked')){
+               jQuery("#radio15").css('border', "solid 2px #232d82"); 
+               jQuery("#radio11").css('border', "none"); 
+               jQuery("#radio13").css('border', "none");
+               jQuery("#radio12").css('border', "none");
+               jQuery("#radio14").css('border', "none");
+
+            }   
+        });
+           
+jQuery("#time-one").click(function(){
+jQuery(this).addClass("active");
+jQuery("#mon-time").removeClass("active");
+document.getElementById("Paris").style.display = "none";
+	document.getElementById("London").style.display = "block";
+});		   
+jQuery("#mon-time").click(function(){
+	jQuery(this).addClass("active");
+	jQuery("#time-one").removeClass("active");
+	document.getElementById("Paris").style.display = "block";
+	document.getElementById("London").style.display = "none";
+	
+	
+	//jQuery("#onepayment").hide();
+});	
+    </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="assets/js/jquery.payform.min.js" charset="utf-8"></script>
+      <script src="assets/js/script.js"></script>
+	
+   </body>
+</html>

@@ -1,0 +1,38 @@
+19th  September 2022 08:00:02 PM----------------Shipment Ready for UPS4269537000087282055
+20th  September 2022 10:30:02 PMShipment Ready for UPS----------------Picked Up4269537000087584616
+21st  September 2022 10:30:02 PMPreparing for Delivery----------------Out for Delivery4269537000087282055
+22nd  September 2022 03:30:02 AMOut for Delivery----------------Delivered4269537000087282055
+23rd  September 2022 08:00:02 PMShipping Label Created----------------Shipment Ready for UPS4269537000088100460
+23rd  September 2022 08:30:02 PMPicked Up----------------Preparing for Delivery4269537000087584616
+23rd  September 2022 11:30:01 PMPreparing for Delivery----------------Out for Delivery4269537000087584616
+24th  September 2022 12:30:01 AMShipping Label Created----------------Picked Up4269537000088100460
+24th  September 2022 06:00:02 AMOut for Delivery----------------Delivered4269537000087584616
+24th  September 2022 08:30:02 PMPicked Up----------------Preparing for Delivery4269537000088100460
+24th  September 2022 10:30:01 PMPreparing for Delivery----------------Delivered4269537000088100460
+25th  September 2022 09:30:01 PMShipping Label Created----------------Shipment Ready for UPS4269537000088283021
+26th  September 2022 05:30:02 AMShipping Label Created----------------Picked Up4269537000088283021
+29th  September 2022 11:30:02 PMPicked Up----------------Out for Delivery4269537000088283021
+30th  September 2022 12:30:02 AMOut for Delivery----------------Delivered4269537000088283021
+20th  October 2022 08:30:01 PMPicked Up----------------Out for Delivery4269537000091232415
+20th  October 2022 08:30:01 PMOut for Delivery----------------Out for Delivery4269537000091232415
+20th  October 2022 08:30:01 PMDelivered----------------Delivered4269537000091107140
+21st  October 2022 08:30:02 PMShipping Label Created----------------Picked Up4269537000091838101
+23rd  October 2022 08:30:01 PMPicked Up----------------Delivered4269537000091838101
+25th  October 2022 08:30:01 PMShipping Label Created----------------Picked Up4269537000092245027
+25th  October 2022 08:30:01 PMShipping Label Created----------------Picked Up4269537000092237333
+25th  October 2022 08:30:01 PMPicked Up----------------Picked Up4269537000092237333
+25th  October 2022 08:30:01 PMShipping Label Created----------------Picked Up4269537000092237679
+26th  October 2022 08:30:02 PMShipping Label Created----------------Picked Up4269537000092334047
+27th  October 2022 08:30:01 PMPicked Up----------------Delivered4269537000092245027
+27th  October 2022 08:30:01 PMPicked Up----------------Delivered4269537000092237679
+27th  October 2022 08:30:01 PMPicked Up----------------Delivered4269537000092334047
+28th  October 2022 08:30:01 PMPicked Up----------------Out for Delivery4269537000092237333
+28th  October 2022 08:30:01 PMOut for Delivery----------------Out for Delivery4269537000092237333
+8th  November 2022 08:30:01 PMDelivered----------------Delivered4269537000092237333
+8th  November 2022 08:30:01 PMDelivered----------------Delivered4269537000092237333
+8th  November 2022 08:30:01 PMShipping Label Created----------------Delivered4269537000093389006
+8th  November 2022 08:30:01 PMShipping Label Created----------------Picked Up4269537000093723021
+8th  November 2022 08:30:01 PMPicked Up----------------Picked Up4269537000093723021
+9th  November 2022 08:30:02 PMShipping Label Created----------------Picked Up4269537000093723021
+9th  November 2022 08:30:02 PMPicked Up----------------Picked Up4269537000093723021
+10th  November 2022 08:30:01 PMShipping Label Created----------------Picked Up4269537000093948066

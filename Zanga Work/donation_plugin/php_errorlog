@@ -1,0 +1,79 @@
+[19-Oct-2021 03:15:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[19-Oct-2021 03:30:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[19-Oct-2021 03:54:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[19-Oct-2021 03:56:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[19-Oct-2021 03:58:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[19-Oct-2021 04:01:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[19-Oct-2021 04:03:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[19-Oct-2021 04:03:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[19-Oct-2021 04:04:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:289
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 289
+[19-Oct-2021 04:05:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[19-Oct-2021 04:08:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[19-Oct-2021 04:16:09 UTC] PHP Fatal error:  require(): Failed opening required '/home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/wp-load.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 16
+[19-Oct-2021 04:26:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:298
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 298
+[19-Oct-2021 04:26:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:298
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 298
+[19-Oct-2021 04:28:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[19-Oct-2021 04:30:31 UTC] PHP Fatal error:  require(): Failed opening required '/home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/wp-load.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 2
+[19-Oct-2021 04:30:34 UTC] PHP Fatal error:  require(): Failed opening required '/home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/wp-load.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 2
+[19-Oct-2021 04:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 25
+[20-Dec-2021 09:07:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[20-Dec-2021 09:09:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[20-Dec-2021 09:09:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
+[20-Dec-2021 09:09:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/staging2.smartenergy.org.au/public_html/wp-content/plugins/donation-plugin/donation plugin.php on line 26
